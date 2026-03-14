@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all css.css">
+</head>
+
+<body class="h-[2500px] m-0 p-0 box-border font-['Cairo']">
+  <header class="w-full h-20 bg-black text-white z-10 flex justify-between items-center fixed px-8 ">
+
+    <div class="flex items-center">
+      <h1 class="text-3xl font-bold font-['Script']">Chef's Kitchen</h1>
+      <span class="w-40 h-5 bg-orange-300 inline-block ml-2 text-sm text-center rounded-full text-orange-900 font-['Sans Serif'] sm:hidden">Fresh & Delicious Food</span>
+    </div>
+    <ul class="flex gap-7 sm:hidden">
+      <li class=" hover:text-amber-300"><a href="#">Home</a></li>
+      <li class=" hover:text-amber-300"><a href="#">Menu</a></li>
+      <li class=" hover:text-amber-300"><a href="#">About</a></li>
+      <li class=" hover:text-amber-300"><a href="#">Services</a></li>
+      <li class=" hover:text-amber-300"><a href="#">Contact Us</a></li>
+    </ul>
+    <button class="bg-[#a84a1e] hover:bg-orange-800 text-white px-6 py-2 rounded-full font-semibold">View Menu</button>
+  </header>
+
+  <section class="w-screen h-screen bg-gray-50 flex items-center justify-center gap-8">
+
+    <div class=" w-150 h-19  p-5 -mt-16 space-y-8">
+      <h1 class="text-5xl font-bold  text-gray-800 mb-6">
+        Deliciouѕ Food <span class="text-orange-700">For Every </span>Mood
+      </h1>
+      <p class="text-slate-600">Fresh ingredients, amazing flavors, and unforgettable dishes.</p>
+      <div class="flex gap-6 mt-6">
+
+        <div class="flex items-center gap-2">
+          <div class="w-6 h-6 flex items-center justify-center bg-green-500 text-white rounded-full text-sm">
+            ✓
+          </div>
+          <span class="text-gray-800">Fresh Ingredients</span>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <div class="w-6 h-6 flex items-center justify-center bg-green-500 text-white rounded-full text-sm">
+            ✓
+          </div>
+          <span class="text-gray-800">Fast Delivery</span>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <div class="w-6 h-6 flex items-center justify-center bg-green-500 text-white rounded-full text-sm">
+            ✓
+          </div>
+          <span class="text-gray-800">Professional Chefs</span>
+        </div>
+
+      </div>
+      <button
+        class="capitalize w-[280px] h-[60px] bg-[#a84a1e] font-bold text-white text-xl px-6 py-3 rounded-lg  mr-4 shadow-md shadow-slate-400 hover:bg-orange-800 transition focus:ring-4 focus:ring-orange-500 focus:outline-none "> start your order now</button>
+      <button
+        class="capitalize  w-[280px] h-[60px] border border-amber-600  font-bold text-xl text-amber-400 px-6 py-3 rounded-lg hover:shadow-md hover:shadow-slate-400  hover:border-2 hover:border-amber-900 hover:text-amber-900 "><span
+          class="text-md ">▶</span> see how we cook</button>
+    </div>
+    <div class="relative shadow-md shadow-black rounded-2xl">
+      <img src="images/pp.png" alt="food" class=" w-full rounded-2xl">
+      <div class="absolute -bottom-6 -left-6 bg-white shadow-md shadow-black rounded-xl p-4 flex items-center gap-3">
+        <img src="images/hh.jpg" alt="" class="w-12 h-12 rounded-full">
+        <div>
+          <h3 class="font-bold text-lg">1200+</h3>
+          <p class="text-gray-500 text-sm capitalize">happy clients</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+  <section class="w-screen h-screen  text-3xl bg-[#F9F9F9]">
+    <h2 class="font-bold  text-center  text-20 pb-2 pt-6 text-slate-900">Our Culinary Excellence</h2>
+    <p class="text-[18px] text-center  pb-3  text-slate-600">We offer a delightful dining experience with a curated menu
+      of fresh, high-quality ingredients.</p>
+    <div class="w-[100px] h-1 m-auto  bg-orange-600 rounded-2xl"></div>
+
+    <div class=" w-[1300px] m-auto mt-8  flex justify-around">
+
+      <div
+        class=" group w-[350px] h-[350px] border border-orange-100 rounded-2xl p-4 hover:border-orange-600 transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 shadow-sm">
+        <div class="w-[70px] h-[50px] bg-orange-100 rounded-xl text-center mb-4 group-hover:bg-orange-600"><i
+            class="fas fa-utensils mt-2 text-orange-600 group-hover:text-white"></i></div>
+        <h2 class="pb-4 font-bold text-slate-900">Authentic Cuisine</h2>
+        <p class="mb-4 text-[17px] leading-tight text-slate-600">Enjoy a wide variety of traditional and modern dishes
+          prepared by our world-class chefs.</p>
+        <li class="list-none text-sm pb-4 "><i class="fa-solid fa-check pr-2  text-amber-900"></i>Signature Main Courses
+        </li>
+        <li class="list-none text-sm pb-4"><i class="fa-solid fa-check pr-2  text-amber-900"></i>Fresh Daily Appetizers
+        </li>
+        <li class="list-none text-sm pb-4"><i class="fa-solid fa-check pr-2  text-amber-900"></i> Homemade Desserts</li>
+      </div>
+
+      <div
+        class=" group w-[350px] h-[350px] border border-orange-100 rounded-2xl p-4  hover:border-orange-600 transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 shadow-sm">
+        <div class="w-[70px] h-[50px] bg-amber-100 rounded-xl text-center mb-4 group-hover:bg-orange-600"><i
+            class="fas fa-truck-fast mt-2 text-orange-600 group-hover:text-white"></i></div>
+        <h2 class="pb-4 font-bold text-slate-900">Fast & Fresh Delivery</h2>
+        <p class="mb-4 text-[17px] leading-tight text-slate-600">Get your favorite meals delivered straight to your
+          doorstep while they are still hot and fresh. chefs.</p>
+        <li class="list-none text-sm pb-4"><i class="fa-solid fa-check pr-2 text-amber-900"></i>Real-time Order Tracking
+        </li>
+        <li class="list-none text-sm pb-4"><i class="fa-solid fa-check pr-2 text-amber-900"></i>Eco-friendly Packaging
+        </li>
+        <li class="list-none text-sm pb-4"><i class="fa-solid fa-check pr-2 text-amber-900 "></i>Fast Door-to-Door
+          Service</li>
+      </div>
+
+      <div
+        class=" group w-[350px] h-[350px] border border-orange-100 rounded-2xl p-4  hover:border-orange-600 transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 shadow-sm">
+        <div class="w-[70px] h-[50px] bg-amber-100 rounded-xl text-center mb-4  group-hover:bg-orange-600"><i
+            class="fas fa-shield-halved mt-2 text-orange-600 group-hover:text-white"></i></div>
+        <h2 class="pb-4 font-bold text-slate-900">Quality & Hygiene</h2>
+        <p class="mb-4 text-[17px] leading-tight text-slate-600">We follow the highest standards of food safety and
+          cleanliness to ensure a healthy dining experience.</p>
+        <li class="list-none text-sm pb-4 "><i class="fa-solid fa-check pr-2  text-amber-900"></i>100% Fresh Ingredients
+        </li>
+        <li class="list-none text-sm pb-4"><i class="fa-solid fa-check pr-2  text-amber-900"></i>Professional Staff</li>
+        <li class="list-none text-sm pb-4"><i class="fa-solid fa-check pr-2  text-amber-900 "></i> Cozy & Clean Environment</li>
+      </div>
+
+    </div>
+  </section>
+  <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+  <Section class="bg-gradient-to-br from-orange-700 to-orange-400 w-[100%]] h-[250px] mb-36">
+    <div class="flex  justify-around  items-center gap-4 w-[1100px] h-[250px]  m-auto">
+
+      <div class="text-center w-[200px] h-[100px]">
+        <h1 class="text-center font-bold text-orange-50 text-6xl mb-4">+1200</h1>
+        <p class="text-center  text-[19px] text-orange-100">Clients Worldwide</p>
+      </div>
+
+      <div class="text-center w-[200px] h-[100px]">
+        <h1 class="text-center font-bold text-orange-50 text-6xl mb-4">+1000</h1>
+        <p class="text-center text-[19px] text-orange-100">Projects Completed</p>
+      </div>
+
+      <div class="text-center w-[200px] h-[100px]">
+        <h1 class="text-center font-bold text-orange-50 text-6xl mb-4">+50</h1>
+        <p class="text-center text-[19px] text-orange-100 ">Marketing Experts</p>
+      </div>
+
+      <div class="text-center w-[200px] h-[100px]">
+        <h1 class="text-center font-bold text-orange-50 text-6xl mb-4">+10</h1>
+        <p class="text-center text-[19px] text-orange-100  ">Years of Experience</p>
+      </div>
+
+    </div>
+  </Section>
+  <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+  <section class="w-[100%] h-screen ">
+    <h2 class="font-bold  text-center  text-[35px] pb-2 pt-8 text-slate-900">Our Creative Team</h2>
+    <p class="text-[18px] text-center  pb-3  text-slate-600">We offer a delightful dining experience with a curated menu
+      of fresh, high-quality ingredients.</p>
+    <div class="w-[1300px] h-[400px]  m-auto mt-8 flex justify-around">
+
+      <div class="w-[270px] h-[400px] rounded-3xl shadow-md shadow-slate-300 group hover:shadow-lg shadow-slate-400 hover:scale-110">
+        <div
+          class="w-[100%] h-[230px] bg-[url(images/Ahmed.jpg)] bg-cover rounded-t-3xl flex justify-center items-center relative">
+          <div
+            class="absolute bg-[rgba(0,0,0,0.7)]  w-[100%] h-[230px] rounded-t-3xl hidden group-hover:flex flex justify-center items-center gap-4 top-0">
+
+            <div class="bg-white w-[50px] h-[50px] rounded-full flex  justify-center items-center">
+              <a href="#"><i class="fa-brands fa-facebook-f text-blue-400 text-3xl "></i></a>
+            </div>
+
+            <div class="bg-white w-[50px] h-[50px] rounded-full flex  justify-center items-center">
+              <a href="#"> <i class="fa-brands fa-instagram text-blue-400 text-3xl "></i></a>
+            </div>
+
+            <div class="bg-white w-[50px] h-[50px] rounded-full flex  justify-center items-center">
+              <a href="#"> <i class="fa-brands fa-twitter text-blue-400 text-3xl "></i></a>
+            </div>
+
+          </div>
+         
+        </div>
+        <h2 class="font-bold  text-center  text-[25px] pb-2 pt-4 text-slate-900">Ahmed Mohamed</h2>
+        <h5 class="text-center  text-[20px] pb-2 text-blue-300 ">Marketing Director</h5>
+        <p class="text-center text-gray-500">10 years of experience in digital marketing</p>
+      </div>
+
+      <div class="w-[270px] h-[400px] rounded-3xl shadow-md shadow-slate-300 group hover:shadow-lg shadow-slate-400 hover:scale-110">
+        <div
+          class="w-[100%] h-[230px] bg-[url(images/sa.avif)] bg-cover rounded-t-3xl flex justify-center items-center relative">
+          <div
+            class="absolute bg-[rgba(0,0,0,0.7)]  w-[100%] h-[230px] rounded-t-3xl hidden group-hover:flex flex justify-center items-center gap-4 top-0">
+
+            <div class="bg-white w-[50px] h-[50px] rounded-full flex  justify-center items-center">
+              <a href="#"><i class="fa-brands fa-facebook-f text-amber-500 text-3xl "></i></a>
+            </div>
+
+            <div class="bg-white w-[50px] h-[50px] rounded-full flex  justify-center items-center">
+              <a href="#"> <i class="fa-brands fa-instagram text-amber-500 text-3xl "></i></a>
+            </div>
+
+            <div class="bg-white w-[50px] h-[50px] rounded-full flex  justify-center items-center">
+              <a href="#"><i class="fa-brands fa-twitter text-amber-500 text-3xl "></i></a>
+            </div>
+
+          </div>
+
+        </div>
+        <h2 class="font-bold  text-center  text-[25px] pb-2 pt-4 text-slate-900">Sara Ahmed</h2>
+        <h5 class="text-center  text-[20px] pb-2 text-amber-300 ">SEO Specialist</h5>
+        <p class="text-center text-gray-500">Specialized in search engine optimization</p>
+      </div>
+
+      <div class="w-[270px] h-[400px] rounded-3xl shadow-md shadow-slate-300 group hover:shadow-lg shadow-slate-400 hover:scale-110">
+        <div
+          class="w-[100%] h-[230px] bg-[url(images/mm.jpg)] bg-cover  rounded-t-3xl flex justify-center items-center relative">
+          <div
+            class="absolute bg-[rgba(0,0,0,0.7)] w-[100%] h-[230px] rounded-t-3xl hidden group-hover:flex flex justify-center items-center gap-4 top-0">
+
+            <div class="bg-white w-[50px] h-[50px] rounded-full flex  justify-center items-center">
+              <a href="#"><i class="fa-brands fa-facebook-f text-purple-500 text-3xl "></i></a>
+            </div>
+
+            <div class="bg-white w-[50px] h-[50px] rounded-full flex  justify-center items-center">
+              <a href="#"><i class="fa-brands fa-instagram text-purple-500 text-3xl "></i></a>
+            </div>
+
+            <div class="bg-white w-[50px] h-[50px] rounded-full flex  justify-center items-center">
+              <a href="#"><i class="fa-brands fa-twitter text-purple-500 text-3xl "></i></a>
+            </div>
+
+          </div>
+          
+        </div>
+        <h2 class="font-bold  text-center  text-[25px] pb-2 pt-4 text-slate-900">Mohamed Ali</h2>
+        <h5 class="text-center  text-[20px] pb-2 text-purple-600 ">Web Developer</h5>
+        <p class="text-center text-gray-500">Expert in web development</p>
+      </div>
+
+      <div class="w-[270px] h-[400px] rounded-3xl shadow-md shadow-slate-300 group hover:shadow-lg shadow-slate-400 hover:scale-110">
+        <div
+          class="w-[100%] h-[230px] bg-[url(images/nora.jpg)] rounded-t-3xl flex justify-center items-center relative">
+          <div
+            class="absolute bg-[rgba(0,0,0,0.7)]  w-[100%] h-[230px] rounded-t-3xl hidden group-hover:flex flex justify-center items-center gap-4 top-0">
+
+            <div class="bg-white w-[50px] h-[50px] rounded-full flex  justify-center items-center">
+              <a href="#"> <i class="fa-brands fa-facebook-f text-green-500 text-3xl "></i></a>
+            </div>
+
+            <div class="bg-white w-[50px] h-[50px] rounded-full flex  justify-center items-center">
+              <a href="#"><i class="fa-brands fa-instagram text-green-500 text-3xl "></i></a>
+            </div>
+
+            <div class="bg-white w-[50px] h-[50px] rounded-full flex  justify-center items-center">
+              <a href=""><i class="fa-brands fa-twitter text-green-500 text-3xl "></i></a>
+            </div>
+
+          </div>
+        
+        </div>
+        <h2 class="font-bold  text-center  text-[25px] pb-2 pt-4 text-slate-900">Noura Khaled</h2>
+        <h5 class="text-center  text-[20px] pb-2 text-green-400 ">Graphic Designer</h5>
+        <p class="text-center text-gray-500">Specialized in visual identity design</p>
+      </div>
+
+    </div><!-- /parent -->
+  </section>
+  <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+  <section class="w-[100%] h-[90vh] bg-gray-900 flex justify-center items-center gap-32 relative">
+
+    <div class="w-[550px] h-[550px] bg-gray-800 rounded-3xl space-y-4 pl-6 ">
+      <h2 class="text-3xl font-bold text-white pt-4">Contact Us</h2>
+      <input type="text" placeholder="Full Name"
+        class="w-[470px] h-[60px] rounded-2xl text-md pl-4 bg-gray-600 focus:ring-4 focus:ring-orange-500 focus:outline-none text-white" id="name"  autocomplete="name" name="name">
+      <input type="email" placeholder="Email Address"
+        class="w-[470px] h-[60px] rounded-2xl text-md pl-4 bg-gray-600 focus:ring-4 focus:ring-orange-500 focus:outline-none text-white" id="email" autocomplete="email" name="email">
+      <textarea placeholder="your message...."
+        class="rounded-2xl text-md pt-4 pl-4 bg-gray-600 focus:ring-4 focus:ring-orange-500 focus:outline-none text-white"
+        cols="55" rows="8"></textarea>
+        <br><br>
+       <a href="index.html">
+       <button class="w-[470px] h-[60px] rounded-2xl text-xl pl-4 bg-orange-600  text-white hover:opacity-60">Send
+        Message</button>
+        </a>
+    </div>
+
+    <div class="w-[550px] h-[550px] rounded-3xl pl-4 space-y-4 ">
+      <h2 class="text-3xl font-bold text-white pt-4">Contact Information</h2>
+
+      <div class="flex items-center gap-4 mb-6">
+        <div class="w-[50px] h-[50px] rounded-lg bg-orange-950 flex felx-column  justify-center items-center group hover:bg-orange-600 ">
+          <i class="fa-solid fa-location-dot text-2xl text-orange-400 group-hover:text-orange-50"></i>
+        </div>
+
+        <div>
+          <p class="text-gray-400 text-sm">Address</p>
+          <p class="text-white font-semibold">Cairo, Egypt</p>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-4 mb-6">
+        <div class="w-[50px] h-[50px] rounded-lg bg-orange-950 flex felx-column  justify-center items-center  group hover:bg-orange-600">
+          <i class="fa-solid fa-phone text-2xl text-orange-400 group-hover:text-orange-50"></i>
+        </div>
+
+        <div>
+          <p class="text-gray-400 text-sm">Phone</p>
+          <p class="text-white font-semibold">+201029036397</p>
+        </div>
+      </div>
+
+      
+      <div class="flex items-center gap-4 mb-6">
+        <div class="w-[50px] h-[50px] rounded-lg bg-orange-950 flex felx-column  justify-center items-center  group hover:bg-orange-600">
+          <i class="fa-solid fa-envelope text-2xl text-orange-400 group-hover:text-orange-50"></i>
+        </div>
+
+        <div>
+          <p class="text-gray-400 text-sm">Email</p>
+          <p class="text-white font-semibold">raniasabry657@gmail.com</p>
+        </div>
+      </div>
+
+      <div class="w-[520px] h-[230px] m-auto bg-[url('images/or.webp')] mt-8 rounded-lg opacity-80 flex justify-center items-center">
+        <i class="fa-solid fa-utensils text-3xl text-orange-200 pr-4"></i>
+        <span class="text-2xl text-orange-200 ">Menu</span>
+      </div>
+
+    </div>
+  </section>
+
+  <hr class="border border-gray-800 w-full">
+
+<footer class="flex justify-between items-center px-20 py-6 bg-gray-900">
+
+  <p class="text-gray-400 text-sm">
+    © 2024 DigitalPro. All rights reserved.
+  </p>
+
+  <div class="flex gap-6 text-gray-400 text-2xl">
+    <i class="fa-brands fa-facebook-f hover:text-white "></i>
+    <i class="fa-brands fa-twitter hover:text-white"></i>
+    <i class="fa-brands fa-linkedin-in hover:text-white"></i>
+    <i class="fa-brands fa-instagram hover:text-white"></i>
+  </div>
+
+</footer>
+</body>
+
+</html>
